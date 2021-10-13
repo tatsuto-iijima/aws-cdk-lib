@@ -1,0 +1,38 @@
+{
+  "name": "@tatsuto-iijima/aws-cdk-lib-cognito",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Tatsuto Iijima",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatsuto-iijima/aws-cdk-lib.git",
+    "directory": "packages/cognito"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "cognito"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.124.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "typescript": "~3.9.7"
+  },
+  "peerDependencies": {
+    "@aws-cdk/core": "1.124.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-cognito": "1.124.0",
+    "@aws-cdk/core": "1.124.0"
+  }
+}
