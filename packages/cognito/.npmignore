@@ -5,4 +5,6 @@
 .cdk.staging
 cdk.out
 
-__snapshots__
+tsconfig.json
+jest.config.js
+test
